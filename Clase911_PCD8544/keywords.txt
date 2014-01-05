@@ -1,0 +1,11 @@
+NokiaLCD	KEYWORD1
+
+init		KEYWORD2
+
+clear		KEYWORD2
+setCursor	KEYWORD2
+bitmap		KEYWORD2
+sBitmap 	KEYWORD2
+character	KEYWORD2
+print 		KEYWORD2
+
