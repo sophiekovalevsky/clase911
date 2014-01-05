@@ -8,8 +8,7 @@ To install the library, follow these steps:
 
 1- Clone the repository, if not you're familiar with git, download the zip.
 2- Unzip the file.
-3- Place the folder directory to your Arduino libraries folder in general case:
-$HOME/sketchbook/libraries
-Restart the IDE.
+3- Place the folder directory to your Arduino libraries folder in general case: $HOME/sketchbook/libraries
+4- Restart the IDE.
 
 Enjoy it.
