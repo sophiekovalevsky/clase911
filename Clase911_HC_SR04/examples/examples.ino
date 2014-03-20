@@ -5,9 +5,9 @@ www.clase911.com
 */
 
 
-#define echoPin 10;
-#define triggerPin 9;
-#define ledPin 13;
+#define echoPin 10
+#define triggerPin 9
+#define ledPin 13
 
 int delaymili = 500;
 int maximumRangeCm = 200;
@@ -29,14 +29,14 @@ void loop() {
 	duration = pulseIn(echoPin, HIGH);
 	distanceCm = microsecCm(duration);
 
-	if (distance >= maximumRange || distance <= minimumRange) {
+	if (distanceCm >= maximumRangeCm || distanceCm <= minimumRangeCm) {
 		Serial.println("Out of range");
 		digitalWrite(ledPin, HIGH); 
 	}
 	else {
 		digitalWrite(ledPin, LOW);
 		Serial.print("Distance in cm: ");
-		Serial.print(distanceCm);
+		Serial.println(distanceCm);
 		delay(delaymili);
 	}
 }
