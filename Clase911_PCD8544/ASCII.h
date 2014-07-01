@@ -1,4 +1,4 @@
-#include "NokiaLCD.h"
+#include "Clase911_PCD6544.h"
 
 static const byte ASCII[][5] = {
   {0x00, 0x00, 0x00, 0x00, 0x00} // 20  

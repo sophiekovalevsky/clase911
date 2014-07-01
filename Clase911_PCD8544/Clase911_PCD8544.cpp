@@ -1,4 +1,4 @@
-#include "NokiaLCD.h" 
+#include "Clase911_PCD6544.h" 
 #include "ASCII.h" 
   
 NokiaLCD::NokiaLCD(uint SCK, uint MOSI, uint DC, uint RST, uint CS) { 

@@ -1,4 +1,4 @@
-#include <NokiaLCD.h>
+#include <Clase911_PCD6544.h>
 
 NokiaLCD NokiaLCD(3,4,5,6,7); // (SCK, MOSI, DC, RST, CS)
 
