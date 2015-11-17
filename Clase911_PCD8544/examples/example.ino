@@ -1,6 +1,6 @@
-#include <Clase911_PCD6544.h>
+#include <Clase911_PCD8544.h>
 
-NokiaLCD NokiaLCD(3,4,5,6,7); // (SCK, MOSI, DC, RST, CS)
+NokiaLCD NokiaLCD(3,4,5,7,6); // (SCK, MOSI, DC, RST, CS)
 
 void setup()
 {
@@ -39,4 +39,3 @@ void loop()
 // NokiaLCD.bitmap(char array);                 Draw a byte array in screen.
 
 // NokiaLCD.sBitmap();                          Wait for a byte array from serial port and draw it in screen. 
-
